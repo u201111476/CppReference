@@ -13,9 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Ch3">
+      <UniqueIdentifier>{050a5177-81b4-4f7d-a42b-b173b67afa5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppReference.cpp">
+    <ClInclude Include="Ch3\Ch3.h">
+      <Filter>Ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="main\main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ch3\Ch3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch3\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
