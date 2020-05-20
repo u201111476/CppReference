@@ -11,6 +11,6 @@ int main()
 #ifdef CH3
 	ch3::test();
 #endif
-    std::cout << "Hello World!\n";
+    return 0;
 }
 
